@@ -71,16 +71,16 @@
 	
 
 	
-	<scene name="scene_img_20260303_174404357_panorama" title="IMG_20260303_174404357 Panorama" onstart="" thumburl="panos/IMG_20260303_174404357_Panorama.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
+	<scene name="scene_img_20260303_174404357_panorama_real" title="IMG_20260303_174404357 Panorama real" onstart="" thumburl="panos/IMG_20260303_174404357_Panorama_real.tiles/thumb.jpg" lat="" lng="" alt="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
-		<preview url="panos/IMG_20260303_174404357_Panorama.tiles/preview.jpg" />
+		<preview url="panos/IMG_20260303_174404357_Panorama_real.tiles/preview.jpg" />
 
 		<image>
-			<cube url="panos/IMG_20260303_174404357_Panorama.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,1024,1792,3584,7168,14336" />
+			<cube url="panos/IMG_20260303_174404357_Panorama_real.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2624,5248" />
 		</image>
 
 	</scene>
